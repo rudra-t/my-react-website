@@ -1,0 +1,28 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    padding: 0 3rem;
+    background-color: var(--Second-Background-Color);
+}
+.Nav-links{
+    display: flex;
+}
+.Nav-links a{
+    margin: 0 20px;
+    color: var(--Text-Color);
+    text-decoration: none;
+}
+.Nav i{
+    display: none;
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    .Nav-links{
+        display: none;
+    }
+    .Nav i{
+        display: block;
+    }
+}
