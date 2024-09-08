@@ -6,13 +6,15 @@
     align-items: center;
 }
 .header-heading{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 600;
     color: var(--Main-Color);
+    margin: 5px 0;
 }
 .header-para{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 .Header-2{
     display: flex;
@@ -23,12 +25,20 @@
     width: 100%;
     height: 100%;
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1074px){
     .header-heading{
-        font-size: 3.1rem;
+        font-size: 3.9rem;
     }
     .header-para{
         font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 833px){
+    .header-heading{
+        font-size: 3.3rem;
+    }
+    .header-para{
+        font-size: 1.3rem;
     }
 }
 @media screen and (max-width: 768px){
@@ -37,19 +47,18 @@
     }
     .Header-1{
         text-align: center;
-        margin-top: 0;
     }
     .header-heading{
-        font-size: 4rem;
+        font-size: 4.3rem;
     }
     .header-para{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
 }
 @media screen and (max-width: 480px){
     .header-heading{
-        font-size: 3.3rem;
+        font-size: 4rem;
     }
     .header-para{
         font-size: 1.5rem;

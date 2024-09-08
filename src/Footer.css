@@ -75,8 +75,8 @@ transform: scale(1.5);
 }
 @media screen and (max-width: 480px) {
     .social-links i{
-        font-size: 2rem;
-        margin: 15px;
+        font-size: 2.5rem;
+        margin: 16px;
         transition: 1S;
     }
 }

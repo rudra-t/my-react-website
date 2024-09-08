@@ -11,6 +11,7 @@ function Service() {
       </div>
       <div className="services">
           <div className="sub-service">
+          <div className="sub-service-2">
               <div className="sub-service-img"><img src={Serviceimg} /></div>
               <div className="sub-service-detail">
                 <h2>Options Trader</h2>
@@ -19,6 +20,7 @@ function Service() {
                 </p>
               </div>
               <div className="sub-service-button"><a href="#" className="button">See More</a></div>
+          </div>
           </div>
           <div className="sub-service">
               <div className="sub-service-img"><img src={Serviceimg} /></div>
