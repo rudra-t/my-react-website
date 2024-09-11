@@ -1,0 +1,10 @@
+.Service-heading h1{
+font-size: 4rem;
+color: var(--Main-Color);
+font-weight: 600;
+margin: 0;
+}
+.Service-heading h2{
+font-size: 1.6rem;
+color: var(--Main-Color);
+}

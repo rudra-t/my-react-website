@@ -1,0 +1,25 @@
+.Service-container{
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+    height: 100%;
+    text-align: center;
+}
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 5rem;
+  column-gap: 3rem;
+}
+@media screen and (max-width: 1107px){
+  .services{
+    margin: 5rem 0 3rem;
+  }
+}
+@media screen and (max-width: 480px){
+  
+}

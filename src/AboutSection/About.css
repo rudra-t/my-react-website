@@ -1,0 +1,8 @@
+.About{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 3rem;
+    align-items: center;
+    background-color: var(--Second-Background-Color);
+}

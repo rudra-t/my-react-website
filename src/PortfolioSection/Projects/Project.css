@@ -1,0 +1,11 @@
+.project{
+  width: 280px;
+  border-radius: 20px;
+  background-color: var(--Second-Background-Color);
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 350px;
+}

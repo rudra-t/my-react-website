@@ -1,59 +1,56 @@
-.Service-container{
+.Slider-container{
     padding: 0 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     min-height: 100vh;
-    height: 100%;
     text-align: center;
 }
-.Service-heading h1{
-  font-size: 4rem;
+.Slider-heading h1{
+  font-size: 3rem;
   color: var(--Main-Color);
   font-weight: 600;
-  margin: 0;
 }
-.Service-heading h2{
+.Slider-heading h2{
   font-size: 1.6rem;
   color: var(--Main-Color);
 }
-.services{
+.sliders{
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
   flex-wrap: wrap;
-  row-gap: 5rem;
-  column-gap: 3rem;
 }
-.sub-service{
+.sub-slider{
   background-color: var(--Second-Background-Color);
-  width: 310px;
-  border-radius: 30px;
+  width: 300px;
+  border-radius: 20px;
+  height: auto;
 }
-.sub-service-img{
+.sub-slider-img{
   width: 90px;
   height: 90px;
+  padding: 10px;
   position: relative;
   margin: -50px auto 0;
+  background-color: var(--Second-Background-Color);
+  border-radius: 50%;
 }
-.sub-service-img img{
+.sub-slider-img img{
   width: 100%;
   height: 100%;
-  border: 10px solid var(--Background-Color);
-  border-radius: 50%;
-  background-color: var(--Second-Background-Color);
+  padding-top: 10px;
 }
-.sub-service-detail{
-  max-width: 90%;
-  margin: 30px auto;
+.sub-slider-detail{
+  max-width: 80%;
+  margin: 0 auto;
 }
-.sub-service-button{
+.sub-slider-button{
   margin: 30px 0;
 }
-@media screen and (max-width: 1107px){
-  .services{
-    margin: 5rem 0 3rem;
-  }
+@media screen and (max-width: 768px){
+
 }
 @media screen and (max-width: 480px){
   

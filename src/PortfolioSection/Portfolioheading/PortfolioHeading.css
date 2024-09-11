@@ -1,0 +1,11 @@
+.Portfolio-heading h1{
+  font-size: 3rem;
+  color: var(--Text-Color);
+  font-weight: 600;
+  margin: 10px 0;
+}
+.Portfolio-heading h2{
+  font-size: 1.6rem;
+  color: var(--Text-Color);
+  margin-bottom: 30px;
+}
