@@ -1,7 +1,7 @@
 import "./subService.css";
 import SubServiceImg from "./SubServiceImg/subServiceImg";
 import SubServiceDetail from "./SubServiceHeading/SubServiceDetail";
-import SubServiceBtn from "./SubServiceBtn/SubServiceBtn";
+import SubServiceBtn from "./SubServiceBtn/subServiceBtn";
 const SubService = ({ imgsrc, heading, description }) => {
   return (
     <div className="sub-service">
