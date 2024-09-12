@@ -1,4 +1,4 @@
-import "./SubServiceBtn.css";
+import "./subServiceBtn.css";
 
 const SubServiceBtn = () => {
   return (
