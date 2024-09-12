@@ -4,7 +4,7 @@
     align-items: center;
     min-height: 10vh;
     padding: 0 3rem;
-    background-color: var(--Second-Background-Color);
+    color: var(--Text-Color);
 }
 .Nav-links{
     display: flex;
@@ -16,7 +16,7 @@
 }
 .Nav i{
     display: none;
-    color: black;
+    color: var(--Text-Color);
 }
 @media screen and (max-width: 768px) {
     .Nav-links{

@@ -7,23 +7,32 @@ body {
   text-decoration: none;
   font-family: "Outfit", sans-serif;
 }
-:root{
-  --Background-Color:#fff;
-  --Second-Background-Color:#e8e8e8;
-  --Main-Color:#ff725e;
-  --Text-Color:#000;
-  --Second-Text-Color:#514e4e;
+:root {
+  --Background-Color: #fff;
+  --Second-Background-Color: #e8e8e8;
+  --Main-Color: #ff725e;
+  --Text-Color: #000;
+  --Second-Text-Color: #514e4e;
 }
-.button{
-  padding: 8px 15px;
-  border-radius: 5px;
-  border: 1px solid var(--Main-Color);
-  background-color: var(--Main-Color);
-  color: var(--Background-Color);
-  cursor: pointer;
+:root {
+  --Background-Color: #0f141c;
+  --Second-Background-Color: #171b22;
+  --Main-Color: #fff;
+  --Text-Color: #fff;
+  --Second-Text-Color: #514e4e;
+}
+.button {
+  padding: 8px 14px;
+  border-radius: 8px;
   text-decoration: none;
-}
-button:hover{
-  background-color: var(--Background-Color);
+  background: linear-gradient(#0f141c, #0f141c) padding-box,
+    linear-gradient(145deg, #e81cff, #40c9ff) border-box;
+  border: 0.5px solid transparent;
   color: var(--Main-Color);
+}
+.button:hover {
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(145deg, #e81cff, #40c9ff) border-box;
+  border: .5px solid var(--Text-Color);
+  color: var(--Background-Color);
 }

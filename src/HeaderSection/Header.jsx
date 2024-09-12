@@ -5,8 +5,10 @@ import Header1 from "./Header1/Header1";
 const Header = () => {
   return (
     <div className="Header" id="Header">
-      <Header1 />
-      <Header2 />
+      <div className="Header-row">
+        <Header1 />
+        <Header2 />
+      </div>
     </div>
   );
 };

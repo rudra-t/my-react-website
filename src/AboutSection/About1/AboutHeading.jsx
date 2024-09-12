@@ -10,7 +10,7 @@ const AboutHeading = () => {
         industry to get a presence in online world. I ahve startedmy journey
         last year in that year i ahve worked some projects.
       </p>
-      <a href="#Portfolio" className="button">
+      <a href="src/img/Rudra.pdf" className="button">
         Download CV
       </a>
     </div>

@@ -2,12 +2,12 @@
   border: 1px solid var(--Text-Color);
   width: 100%;
   height: 170px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .project-img img{
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 20px;
+  border-radius: 10px;
 }

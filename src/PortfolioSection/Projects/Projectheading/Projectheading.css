@@ -1,0 +1,7 @@
+.project-detail{
+    color: var(--Text-Color);
+    width: 90%;
+}
+.project-detail h1{
+    font-size: 22px;
+}

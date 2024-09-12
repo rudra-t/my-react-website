@@ -1,8 +1,24 @@
 .About{
     min-height: 100vh;
+    margin: 0 3rem;
+}
+.About-row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 3rem;
     align-items: center;
-    background-color: var(--Second-Background-Color);
+    color: var(--Text-Color);
+    position: relative;
+    z-index: 101;
 }
+@media screen and (max-width: 1280px) {
+    .About{
+        min-height: 60vh;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .About-row{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+  }
+  

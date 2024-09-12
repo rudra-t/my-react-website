@@ -1,8 +1,8 @@
-import "./subServiceBtn.css";
+import "./SubServiceBtn.css";
 
-const subServiceBtn = () => {
+const SubServiceBtn = () => {
   return (
-    <div className="sub-service-button">
+    <div>
       <a href="#" className="button">
         See More
       </a>
@@ -10,4 +10,4 @@ const subServiceBtn = () => {
   );
 };
 
-export default subServiceBtn;
+export default SubServiceBtn;

@@ -1,22 +1,15 @@
 .Portfolio-container{
-    padding: 0 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    margin: 0 3rem;
     height: 100%;
     min-height: 100vh;
     text-align: center;
-    background-color: var(--Second-Background-Color);
+    z-index: 1001;
 }
 .Portfolio-section{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   flex-wrap: wrap;
-}
-@media screen and (max-width: 1107px){
-  .Portfolio-section{
-    margin: 3rem 0;
-  }
+  margin: 40px 0;
 }

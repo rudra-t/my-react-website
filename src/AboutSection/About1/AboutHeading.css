@@ -1,44 +1,42 @@
-
-.About-1 h2{
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 0;
+.About-1 h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
 }
-.about-heading{
+.about-heading {
+  font-size: 3.7rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.about-para {
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 992px) {
+  .about-heading {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .About {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2rem 3rem;
+  }
+  .About-1 {
+    text-align: center;
+  }
+  .about-heading {
     font-size: 3.3rem;
-    font-weight: 600;
-    color: var(--Main-Color);
-    margin: 10px 0;
-}
-.about-para{
+  }
+  .about-para {
     font-size: 1rem;
-    margin-bottom: 50px;
+  }
 }
-@media screen and (max-width: 992px){
-    .about-heading{
-        font-size: 2.8rem;
-    }
-}
-@media screen and (max-width: 768px){
-    .About{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .About-1{
-        text-align: center;
-    }
-    .about-heading{
-        font-size: 3.3rem;
-    }
-    .about-para{
-        font-size: 1rem;
-    }
-
-}
-@media screen and (max-width: 480px){
-    .about-heading{
-        font-size: 2.9rem;
-    }
-    .about-para{
-        font-size: .9rem;
-    }
+@media screen and (max-width: 480px) {
+  .about-heading {
+    font-size: 2.9rem;
+  }
+  .about-para {
+    font-size: 0.9rem;
+  }
 }

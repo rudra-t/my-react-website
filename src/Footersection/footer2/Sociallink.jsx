@@ -4,7 +4,7 @@ import "./Sociallink.css";
 const Sociallinks = () => {
   return ( 
     <div className="footer-2">
-          <div className="social-links">
+         <div className="social-links">
               <a href="#">
                 <i className="fa-brands fa-facebook"></i>
               </a>

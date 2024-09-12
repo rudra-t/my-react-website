@@ -2,9 +2,9 @@ import "./Projectbtn.css";
 const Projectbtn = () => {
   return (
     <>
-      <div className="project-button">
-        <a href="#">Get Code</a>
-      </div>
+      <a href="#" className="button">
+        Get Code
+      </a>
     </>
   );
 };

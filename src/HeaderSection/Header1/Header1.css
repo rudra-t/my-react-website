@@ -1,5 +1,6 @@
+
 .header-heading{
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 600;
     color: var(--Main-Color);
     margin: 5px 0;
@@ -26,9 +27,6 @@
     }
 }
 @media screen and (max-width: 768px){
-    .Header{
-        grid-template-columns: repeat(1, 1fr);
-    }
     .Header-1{
         text-align: center;
     }

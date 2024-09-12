@@ -1,7 +1,23 @@
 .Header{
     min-height: 90vh;
+    padding: 0 3rem;
+}
+.Header-row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 3rem;
     align-items: center;
+    color: var(--Text-Color);
+    position: relative;
+    z-index: 1001;
 }
+@media screen and (max-width: 1280px) {
+    .Header{
+        min-height: 60vh;
+    }
+  }
+@media screen and (max-width: 768px){
+    .Header-row{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+  }
