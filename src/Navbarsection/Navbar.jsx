@@ -19,7 +19,7 @@ const Navbar = () => {
           <li>Contact</li>
         </a>
       </div>
-      <i class="fa-solid fa-bars"></i>
+      <i className="fa-solid fa-bars"></i>
     </div>
   );
 };
