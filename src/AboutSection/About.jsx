@@ -4,10 +4,10 @@ import AboutImg from "./About2/AboutImg";
 
 const About = () => {
   return (
-    <div className="About" id="About">
-      <div className="About-row">
-        <AboutHeading />
+    <div className="Container" id="About">
+      <div className="About-Row">
         <AboutImg />
+        <AboutHeading />
       </div>
     </div>
   );

@@ -4,8 +4,8 @@ import Header1 from "./Header1/Header1";
 
 const Header = () => {
   return (
-    <div className="Header" id="Header">
-      <div className="Header-row">
+    <div className="Container" id="Header">
+      <div className="Header-Row">
         <Header1 />
         <Header2 />
       </div>

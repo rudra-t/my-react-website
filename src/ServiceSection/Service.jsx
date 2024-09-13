@@ -7,13 +7,13 @@ import SubServiceImg3 from "./SubService/SubServiceImg/Img/Service3.svg";
 
 const Service = ({ imgsrc, heading, description }) => {
   return (
-    <div className="Service-container" id="Service">
+    <div className="Container" id="Service">
       <ServiceHeading />
       <div className="services">
         <SubService
           imgsrc={SubServiceImg1}
           heading="Options trader"
-          description="I m a options trader who can help you to gain knowledge about stock market"
+          description="Providing insights into stock trading based on my experience."
         />
         <SubService
           imgsrc={SubServiceImg2}
@@ -23,7 +23,12 @@ const Service = ({ imgsrc, heading, description }) => {
         <SubService
           imgsrc={SubServiceImg3}
           heading="Web Developer"
-          description="I can make awebsite for a business or indivisual as to get presence online"
+          description="I can make a website for a business or indivisual as to get presence online"
+        />
+         <SubService
+          imgsrc={SubServiceImg3}
+          heading="Web Developer"
+          description="I can make a website for a business or indivisual as to get presence online"
         />
       </div>
     </div>

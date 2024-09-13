@@ -1,7 +1,21 @@
 .project-detail{
     color: var(--Text-Color);
     width: 90%;
+    background-color: var(--Background-Color);
+    margin: 0px auto 0;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    transition: .3s;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .project-detail h1{
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.project-detail:hover{
+    margin: -140px auto 0;
 }

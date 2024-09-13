@@ -1,7 +1,5 @@
-
 .project {
-  width: 290px;
-  height: 350px;
+  height: 280px;
   backdrop-filter: blur(6px);
   border-radius: 17px;
   text-align: left;
@@ -12,16 +10,4 @@
   justify-content: space-around;
   user-select: none;
   padding: 15px;
-}
-
-.project:hover {
-  background: linear-gradient(#0f141c, #0f141c) padding-box,
-  linear-gradient(145deg, #e81cff, #40c9ff) border-box;
-  transform: scale(1.05);
-  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.50);
-  border: 1px solid transparent
-}
-
-.Project:active {
-  transform: scale(0.95) rotateZ(1.7deg);
 }

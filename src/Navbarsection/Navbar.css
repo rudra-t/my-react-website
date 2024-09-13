@@ -1,9 +1,8 @@
-.Nav{
+#Nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 10vh;
-    padding: 0 3rem;
     color: var(--Text-Color);
 }
 .Nav-links{
@@ -14,7 +13,7 @@
     color: var(--Text-Color);
     text-decoration: none;
 }
-.Nav i{
+#Nav i{
     display: none;
     color: var(--Text-Color);
 }
@@ -22,7 +21,7 @@
     .Nav-links{
         display: none;
     }
-    .Nav i{
+    #Nav i{
         display: block;
     }
 }

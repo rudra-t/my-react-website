@@ -9,7 +9,7 @@ body {
 }
 :root {
   --Background-Color: #fff;
-  --Second-Background-Color: #e8e8e8;
+  --Second-Background-Color: #11001F;
   --Main-Color: #ff725e;
   --Text-Color: #000;
   --Second-Text-Color: #514e4e;
@@ -21,6 +21,11 @@ body {
   --Text-Color: #fff;
   --Second-Text-Color: #514e4e;
 }
+.Container{
+  width: 90%;
+  margin: auto;
+}
+
 .button {
   padding: 8px 14px;
   border-radius: 8px;

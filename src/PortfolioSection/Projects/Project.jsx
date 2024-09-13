@@ -1,6 +1,5 @@
 import "./Project.css";
 import Projectimg from "./Projectimg/Projectimg";
-import Projectbtn from "./Projectbtn/Projectbtn";
 import Projectheading from "./Projectheading/Projectheading";
 
 const Project = ({ imgsrc, heading, description }) => {
@@ -8,9 +7,6 @@ const Project = ({ imgsrc, heading, description }) => {
     <div className="project">
       <Projectimg imgsrc={imgsrc} />
       <Projectheading heading={heading} description={description} />
-      <div>
-        <Projectbtn />
-      </div>
     </div>
   );
 };

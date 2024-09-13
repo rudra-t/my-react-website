@@ -9,13 +9,13 @@ import Project from "./Projects/Project";
 
 const Portfolio = ({imgsrc, heading, description}) => {
   return (
-    <div className="Portfolio-container" id="Portfolio">
+    <div className="Container" id="Portfolio">
       <PortfolioHeading />
       <div className="Portfolio-section">
         <Project imgsrc={Pimg} heading="Login Page" description="Fully Functional login Page"/>
         <Project imgsrc={Pimg2} heading="CCTV Website" description="Fully Functional login Page"/>
         <Project imgsrc={Pimg3} heading="Finance Website" description="Fully Functional login Page"/>
-        <Project imgsrc={Pimg4} heading="Ecommerce Website" description="Fully Functional login Page"/>
+        <Project imgsrc={Pimg4} heading="Food Website" description="Fully Functional login Page"/>
       </div>
     </div>
   );

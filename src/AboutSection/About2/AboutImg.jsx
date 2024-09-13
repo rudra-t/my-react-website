@@ -1,5 +1,5 @@
 import "./AboutImg.css";
-import Aboutimg from "./Img/about2.svg";
+import Aboutimg from "./Img/AboutImg.png";
 
 const AboutImg = () => {
   return ( 

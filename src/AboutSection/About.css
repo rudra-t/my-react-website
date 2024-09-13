@@ -1,24 +1,22 @@
-.About{
-    min-height: 100vh;
-    margin: 0 3rem;
-}
-.About-row{
+.About-Row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     color: var(--Text-Color);
     position: relative;
-    z-index: 101;
+    min-height: 100vh;
 }
+
+
 @media screen and (max-width: 1280px) {
-    .About{
-        min-height: 60vh;
+    .About-Row{
+        min-height: 80vh;
     }
   }
-  @media screen and (max-width: 768px){
-    .About-row{
+  @media screen and (max-width: 970px){
+    .About-Row{
         grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;
+        gap: 1rem;
     }
   }
   
