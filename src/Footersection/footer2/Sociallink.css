@@ -20,6 +20,7 @@
 }
 .footer-2 p {
   text-align: center;
+  color: var(--Main-Color);
 }
 .social-links .fa-instagram:hover {
   animation: bounce_613 0.4s linear;
@@ -34,6 +35,11 @@
 }
 
 .social-links .fa-linkedin:hover {
+  animation: bounce_613 0.4s linear;
+  border-radius: 10px;
+}
+
+.social-links .fa-discord:hover {
   animation: bounce_613 0.4s linear;
   border-radius: 10px;
 }
