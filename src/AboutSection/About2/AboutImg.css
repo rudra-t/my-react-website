@@ -6,4 +6,5 @@
 .About-2 img{
     width: 80%;
     height: 80%;
+    box-shadow: 12px 12px 51px rgba(0, 0, 0, 0.60);
 }

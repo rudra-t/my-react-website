@@ -9,11 +9,11 @@
   border-radius: 15px 15px 100px 15px;
   background: linear-gradient(#0f141c, #0f141c) padding-box,
     linear-gradient(145deg, #e81cff, #40c9ff) border-box;
-  border: .5px solid transparent;
+  border: 0.5px solid transparent;
   margin: 30px;
-  transition: .3s;
-   box-shadow: 17px 10px 30px rgba(0, 0, 0, 0.99);
+  transition: 0.3s;
+  box-shadow: 17px 10px 30px rgba(0, 0, 0, 0.99);
 }
-.sub-service:hover{
+.sub-service:hover {
   transform: scale(1.05);
 }
