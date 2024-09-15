@@ -1,5 +1,5 @@
 import "./Header2.css";
-import Hero from "./Img/Hero.svg";
+import Hero from "./Img/hero.svg";
 
 const Header2 = () => {
   return (
