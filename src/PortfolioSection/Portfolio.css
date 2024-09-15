@@ -6,9 +6,9 @@
 }
 .Portfolio-section{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 4rem;
   margin: 40px 0;
 }

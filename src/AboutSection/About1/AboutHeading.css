@@ -15,7 +15,7 @@
 }
 .Sub-About-Container{
   width: 100%;
-  margin: 40px 0;
+  margin: 70px 0;
   display: grid;
   grid-template-columns: repeat(auto-fit , minmax(150px, 25%));
   gap: 2rem;

@@ -18,8 +18,9 @@ const Navbar = () => {
         <a href="#Footer">
           <li>Contact</li>
         </a>
+        <i className="fa-solid fa-bars"></i>
       </div>
-      <i className="fa-solid fa-bars"></i>
+      <a href="#Footer" className="button">Contact</a>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 .sub-service {
-  border-radius: 30px;
   color: var(--Text-Color);
   height: 250px;
   display: flex;
@@ -12,4 +11,9 @@
     linear-gradient(145deg, #e81cff, #40c9ff) border-box;
   border: .5px solid transparent;
   margin: 30px;
+  transition: .3s;
+   box-shadow: 17px 10px 30px rgba(0, 0, 0, 0.99);
+}
+.sub-service:hover{
+  transform: scale(1.05);
 }

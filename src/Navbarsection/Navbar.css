@@ -7,11 +7,20 @@
 }
 .Nav-links{
     display: flex;
+    background-color: var(--Second-Background-Color);
+    height: 6vh;
+    align-items: center;
+    border-radius: 10px;
 }
 .Nav-links a{
-    margin: 0 20px;
+    margin: 0 25px;
     color: var(--Text-Color);
     text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+.Nav-links a:Hover{
+    background-color: var(--Background-Color);
 }
 #Nav i{
     display: none;

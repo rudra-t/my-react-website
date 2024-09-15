@@ -1,63 +1,44 @@
-.footer-2 {
+.social-links{
+  background-color: var(--Second-Background-Color);
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  color: var(--Main-Color);
-}
-.social-links {
-  width: 100%;
+  justify-content: space-around;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.99);
+  border-radius: 10px;
 }
 .social-links i {
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.4s;
-  min-width: 20%;
-  margin: 10px auto;
+  margin: 10px;
   text-align: center;
+  font-size: 2.2rem;
+  color: var(--Main-Color);
+  background-color: var(--Background-Color);
+  padding: 15px;
 }
 .social-links a {
   color: var(--Main-Color);
-  position: relative;
-  text-decoration: none;
-  border-radius: 50px;
-  font-size: 3rem;
-}
-.footer-2 i:hover {
-  transform: scale(1.5);
 }
 .footer-2 p {
   text-align: center;
 }
 .social-links .fa-instagram:hover {
-  color: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
   animation: bounce_613 0.4s linear;
-  border-radius: 10px;
 }
 
 .social-links .fa-github:hover {
-  color: #242c34;
   animation: bounce_613 0.4s linear;
 }
 
 .social-links .fa-facebook:hover {
-  color: #5865f2;
   animation: bounce_613 0.4s linear;
 }
 
 .social-links .fa-linkedin:hover {
-  color: #0a66c2;
   animation: bounce_613 0.4s linear;
   border-radius: 10px;
 }
 
 .social-links .fa-google:hover {
-  color: #ff8000;
   animation: bounce_613 0.4s linear;
 }
 

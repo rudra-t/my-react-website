@@ -1,13 +1,16 @@
 .project-detail{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
     color: var(--Text-Color);
-    width: 90%;
+    width: 65%;
     background-color: var(--Background-Color);
     margin: 0px auto 0;
     overflow: hidden;
     text-align: center;
     border-radius: 10px;
     transition: .3s;
-    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -18,4 +21,15 @@
 }
 .project-detail:hover{
     margin: -140px auto 0;
+}
+.fa-arrow-right{
+    background-color: var(--Second-Background-Color);
+    color: var(--Text-Color);
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.fa-arrow-right:hover{
+    background-color: var(--Text-Color);
+    color: var(--Second-Background-Color);
 }

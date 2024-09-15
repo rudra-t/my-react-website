@@ -6,7 +6,7 @@ const Projectheading = ({ heading, description }) => {
     <div className="project-detail">
       <h1>{heading}</h1>
       <div>
-        <Projectbtn />
+      <i class="fa-solid fa-arrow-right"></i>
       </div>
     </div>
   );

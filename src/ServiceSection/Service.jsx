@@ -16,16 +16,6 @@ const Service = ({ imgsrc, heading, description }) => {
           description="Providing insights into stock trading based on my experience."
         />
         <SubService
-          imgsrc={SubServiceImg2}
-          heading="Insurance Adviser"
-          description="I m also a part working agent of LIC i can help you to get a desired insurance"
-        />
-        <SubService
-          imgsrc={SubServiceImg3}
-          heading="Web Developer"
-          description="I can make a website for a business or indivisual as to get presence online"
-        />
-         <SubService
           imgsrc={SubServiceImg3}
           heading="Web Developer"
           description="I can make a website for a business or indivisual as to get presence online"

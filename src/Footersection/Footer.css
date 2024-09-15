@@ -1,43 +1,28 @@
 #Footer{
-    min-height: 100vh;
-    margin: 0 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    min-height: 100vh;
 }
 .Quete{
     width: 70%;
-    margin: 20px auto;
-    background-color: var(--Background-Color);
-    border-radius: 20px;
+    margin: 0px auto;
+    background-color: var(--Second-Background-Color);
+    border-radius: 10px;
     text-align: center;
     color: var(--Main-Color);
-    border: 1px solid var(--Text-Color);
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.99);
 }
 .Quete h1{
+    background-color: var(--Background-Color);
     width: 70%;
     margin: 20px auto;
+    padding: 20px 0;
+    border-radius: 10px;
 }
 .Footer{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-items: center;
-}
-@media screen and (max-width: 768px) {
-    .Footer{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        min-height: 100vh;
-        row-gap: 2rem;
-    }
-    .social-links i{
-        font-size: 3rem;
-    }
-}
-@media screen and (max-width: 480px) {
-    .social-links i{
-        font-size: 2.5rem;
-        margin: 16px;
-        transition: 1S;
-    }
+    row-gap: 2rem;
 }

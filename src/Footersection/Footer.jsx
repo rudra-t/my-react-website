@@ -4,9 +4,9 @@ import Form from "./footer1/Form";
 import Sociallinks from "./footer2/Sociallink";
 function Footer() {
   return (
-    <div id="Footer">
+    <div id="Footer" className="Container">
       <div className="Quete">
-        <h1>Want to Conact</h1>
+        <h1>Want to Connect</h1>
       </div>
       <div className="Footer">
         <Form />

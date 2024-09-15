@@ -4,19 +4,15 @@
     align-items: center;
     color: var(--Text-Color);
     position: relative;
-    min-height: 100vh;
+    row-gap: 2rem;
 }
 
 
 @media screen and (max-width: 1280px) {
-    .About-Row{
-        min-height: 80vh;
-    }
   }
   @media screen and (max-width: 970px){
     .About-Row{
         grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
     }
   }
   

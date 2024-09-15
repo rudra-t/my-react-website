@@ -1,13 +1,17 @@
 .project {
-  height: 280px;
+  height: 230px;
   backdrop-filter: blur(6px);
   border-radius: 17px;
   text-align: left;
   cursor: pointer;
   transition: all 0.5s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   user-select: none;
   padding: 15px;
+  transition: .4s;
+  background-color: var(--Second-Background-Color);
+    transform: scale(1.05);
+    box-shadow: 12px 12px 51px rgba(0, 0, 0, 0.60);
+}
+.project:hover{
+  transform: scale(1.15);
 }
