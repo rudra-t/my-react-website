@@ -9,8 +9,3 @@
   color: var(--Text-Color);
   font-weight: 300;
 }
-.Portfolio-heading p{
-  color: var(--Text-Color);
-  width: 100%;
-  margin: 0 auto;
-}
